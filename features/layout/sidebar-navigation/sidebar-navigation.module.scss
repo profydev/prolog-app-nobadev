@@ -139,3 +139,15 @@
     display: flex;
   }
 }
+
+.collapsedMenuItem {
+  display: none;
+
+  @media (min-width: breakpoint.$desktop) {
+    display: flex;
+  }
+
+  img {
+    transform: rotate(180deg);
+  }
+}
